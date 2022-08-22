@@ -1,0 +1,63 @@
+.About{
+    /* Entire page width */
+    width:100%;
+    /* Entire page height */
+    height:100vh;
+    /* Responsive layout */
+    display:flex;
+    /* Display on top of the other */
+    flex-direction: column; 
+    /* Display horizontally at the center */ 
+    align-items: center;
+    /* Smooth transition to bottom right with different colors */
+    background-image: linear-gradient(to bottom right, #fc0345,#fc03b1,#4a03fc);
+    /* To cover the entire screen */
+    background-size:cover;
+    /* Image position */
+    background-position:center;
+    /* To not repeat the image beyond it's scale */
+    background-repeat:no-repeat;
+}
+
+.form{
+    /** Sizeable width for the form **/
+    width:400px;
+    /** Sizeable height for the form **/
+    height:300px;
+    /** Black color with opacity **/
+    background-color:rgba(0,0,0,0.5);
+    /** Responsive layout **/
+    display:flex;
+    /** One element on top of the other **/
+    flex-direction:column;
+    /** Vertically at the center **/
+    justify-content: center;
+    /** Smooth corners **/
+    border-radius:10px;
+    /** Top, bottom, right, and left spacing between form and it's content **/
+    padding:20px;
+    /** Spacing from the top **/
+    margin-top:10px;
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    backdrop-filter: "blur(10px)"; 
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+}
+
+.form-group{
+    /** Bottom space between one form-group and the other **/
+    margin-bottom:20px;
+    /** Responsive layout **/
+    display: flex;
+    /** One element on top of the other **/
+    flex-direction: column;
+}
+
+.form-group label{
+    /** Medium font size **/
+    font-size:16px;
+    /** Visible color **/
+    color:white;
+    /** Bottom space between it and the input form **/
+    margin-bottom:5px;
+}
+
